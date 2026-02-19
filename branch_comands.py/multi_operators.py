@@ -8,18 +8,26 @@ Print final salary.
 salary =input("Enter salary: ")
 year_of_service =input("Enter year of service: ")
 bonus = 5000
-sum += bonus
-if sum and salary>30000 and year_of_service>=3 :
+if bonus and salary>30000 and year_of_service>=3 :
     print("Final salary")
 else:
     print("Not eligible for salary")
 
+    """2️⃣ Simple Login
+Take username and password as input.
+Allow login if:
+username == "admin"
+AND password == "1234"
+AND username does NOT contain space
+    """
+username= input("Enter username: ")
+password = input("Enter password: ")
+if username=="admin" and password=='1234' and username==" ":
+    print("Login Sucess")
+else:
+    print("Faild")
 
-    
-    
-    
-    
-    
+
     
     
     
